@@ -1,0 +1,1 @@
+51Talk training portal. Static HTML with all audio, video, and curriculum assets in the same directory. GitHub Pages: main branch, root folder.
