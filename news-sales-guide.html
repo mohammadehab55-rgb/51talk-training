@@ -1448,6 +1448,9 @@ main {
     flex: 0 0 auto;
   }
 }
+
+/* Keep narrow-screen grid tracks within the device viewport. */
+.app-shell>*,main>*,.hero>*,.sidebar,.nav-list{min-width:0}.app-shell{max-width:100%} @media(max-width:1120px){.app-shell{grid-template-columns:minmax(0,1fr)}.sidebar,main{width:100%;max-width:100%}.nav-list{max-width:100%}}
 </style>
   </head>
   <body>
